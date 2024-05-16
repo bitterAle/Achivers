@@ -10,7 +10,7 @@ const Hero = () => {
 */}
 
 <section
-  className="relative bg-[url(https://images.pexels.com/photos/632470/pexels-photo-632470.jpeg?auto=compress&cs=tinysrgb&w=600)] bg-cover bg-center bg-no-repeat"
+  className="relative bg-[url(https://images.pexels.com/photos/272980/pexels-photo-272980.jpeg?auto=compress&cs=tinysrgb&w=600)] bg-cover bg-center bg-no-repeat"
 >
   <div
     className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
@@ -23,7 +23,7 @@ const Hero = () => {
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Committed to 
 
-        <strong className="block font-extrabold text-rose-700"> Excellence </strong>
+        <strong className="block font-extrabold text-blue-700"> Excellence </strong>
       </h1>
 
       <p className="mt-4 max-w-lg sm:text-xl/relaxed">

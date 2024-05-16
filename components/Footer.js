@@ -111,29 +111,33 @@ const Footer = () => {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-gray-900">About Us</p>
+          <p className="text-lg font-medium text-gray-900">Helpful Links</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <Link className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Our History
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/">
+                Home
               </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Meet the Teachers
-              </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/about">
+                About Us
+              </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                Employee Handbook
-              </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/curriculum">
+                Curriculum
+              </Link>
             </li>
 
+            
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Careers </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/gallery"> Gallery </Link>
+            </li>
+            <li>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/contact"> Contact </Link>
             </li>
           </ul>
         </div>
@@ -141,15 +145,18 @@ const Footer = () => {
        
 
         <div className="text-center sm:text-left">
-          <p className="text-lg font-medium text-gray-900">Helpful Links</p>
+          <p className="text-lg font-medium text-gray-900"> Info</p>
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> FAQs </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> FAQs </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Support </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Fees </Link>
+            </li>
+            <li>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="#"> Enroll </Link>
             </li>
 
             <li>
@@ -234,8 +241,7 @@ const Footer = () => {
               </svg>
 
               <address className="-mt-0.5 flex-1 not-italic text-gray-700">
-                213 Lane, London, United Kingdom
-              </address>
+                Kisumu Rd, Eldoret.              </address>
             </li>
           </ul>
         </div>

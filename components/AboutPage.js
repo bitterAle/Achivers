@@ -15,9 +15,7 @@ const AboutPage = () => {
       </h2>
 
       <p className="hidden text-gray-500 md:mt-4 md:block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
-        sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-        quisque ut interdum tincidunt duis.
+      We offer a comprehensive curriculum designed to meet the individual needs of each student. Our approach combines rigorous academic standards, innovative teaching methods, and modern technologies to foster critical thinking, creativity, and collaboration. We believe in empowering students to become lifelong learners, preparing them to excel in a competitive global environment.
       </p>
 
       <div className="mt-4 md:mt-8">
