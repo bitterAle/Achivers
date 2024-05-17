@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Curric = () => {
     return (
-        <div className=' h-screen w-full flex flex-col items-center justify-center bg-white  text-black  p-5'>
+        <div className=' min-h-screen w-full flex flex-col items-center justify-center bg-white  text-black  p-5'>
             <small className=' text-blue-600'>programs</small>
             <h1 className=' text-4xl font-extrabold capitalize p-5 m-5'>our academic programs</h1>
             <div className=' flex gap-4 flex-wrap w-full'>

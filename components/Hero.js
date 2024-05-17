@@ -19,7 +19,7 @@ const Hero = () => {
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
   >
-    <div className="max-w-xl text-start ">
+    <div className="max-w-xl text-center md:text-start ">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Committed to 
 
@@ -33,14 +33,14 @@ const Hero = () => {
       <div className="mt-8 flex flex-wrap gap-4 text-center">
         <a
           href="#"
-          className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+          className="block w-full rounded  bg-green-600 px-12 py-3 text-sm font-medium text-white shadow  focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
         >
           Apply Today
         </a>
 
         <a
           href="#"
-          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+          className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-green-600 shadow  focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           About Us
         </a>

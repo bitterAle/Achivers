@@ -12,18 +12,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-white-200  dark:invert">
+    <nav className="w-full bg-white-200  ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 relative ">
           <div className="flex items-center">
             <Link href="/"
-               className="text-blue-600 text-3xl font-bold">Eldoret Achivers
+               className=" w-20">
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0h8EZl1RZ-0nagl53444ahKZUHsuIte7FOpKRi3xTQ&s'
+                alt='logo image'
+                className=' max-w-full h-auto object-cover '></img>
             </Link>
           </div>
+          <div className=' flex gap-4'>
           <div className="flex md:hidden">
             <button
               type="button"
-              className="text-gray-400 hover:text-white focus:outline-none"
+              className="text-gray-400  focus:outline-none"
               onClick={toggleMenu}
             >
               <svg
@@ -47,42 +51,47 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className={`${isOpen ? 'block absolute top-full w-full z-50 bg-slate-950 ' : 'hidden'} md:flex md:items-center md:ml-6`}>
-            <div className="flex flex-col md:flex-row md:space-x-4">
+          
+          <div className={`${isOpen ? 'block absolute top-full  w-screen md:w-full z-50 bg-slate-950 ' : 'hidden'} md:flex md:items-center md:ml-6`}>
+            <div className="flex flex-col  md:flex-row md:space-x-4">
               <Link href="/"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 
               </Link>
               <Link href="/about"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   About
                 
               </Link>
               <Link href="/curriculum"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Curriculum
                 
               </Link>
              
               <Link href="/schoolfees"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   School Fees
                 
               </Link>
             
               <Link href="/gallery"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Gallery
                 
               </Link>
               <Link href="/contact"
-                 className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 className="text-white md:text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 
               </Link>
+
               </div>
           </div>
+          <button className=' w-25 p-5  h-auto bg-blue-800 text-white rounded-md border-none shadow-sm'>Enroll Today</button>
+          </div>
+             
         </div>
       </div>
     </nav>

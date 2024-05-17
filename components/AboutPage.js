@@ -31,10 +31,10 @@ const AboutPage = () => {
 
   <Image
     alt=""
-    src="/pic1.png"
+    src="/tic.png"
     width={100}
     height={100}
-    className="h-56 w-full object-cover sm:h-full"
+    className="h-56 w-full object-contain sm:h-full"
   />
 </section>
         </div>
